@@ -26,7 +26,8 @@ do not puch the data to git as its huge, to avoid that add datafile_name.zip int
 
 #### to view the data log into tensor board  
 1. open new terminal conda activate ./env
-2. Run tensorboard --logdir=research_env/logs/fit
+2. Run tensorboard --logdir=research_env/logs/fit/. 
+OR use %load_ext tensorboard in the jupyter notebook and type %tensorboard --logdir research_env/logs/fit/
 
 
 

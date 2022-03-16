@@ -19,5 +19,15 @@ pip install -r requirements.txt
 
 to start jupyter notebook jupyter-notebook
 
+Keep commit and push changes to the github using pycharm and vscode git commit options
+
+do not puch the data to git as its huge, to avoid that add datafile_name.zip into gitignore file
+
+
+#### to view the data log into tensor board  
+1. open new terminal conda activate ./env
+2. Run tensorboard --logdir=research_env/logs/fit
+
+
 
 

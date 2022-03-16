@@ -19,5 +19,9 @@ pip install -r requirements.txt
 
 to start jupyter notebook jupyter-notebook
 
+Keep commit and push changes to the github using pycharm and vscode git commit options
+
+do not puch the data to git as its huge, to avoid that add datafile_name.zip into gitignore file
+
 
 

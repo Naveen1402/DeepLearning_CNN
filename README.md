@@ -13,5 +13,11 @@ open directory to code editor like vs code and pycharm and create the environmen
 
 conda create --prefix ./env python=3.7 -y && conda activate ./env
 
-Also Keep on adding the library inside the requirement.txt files 
+#### Also Keep on adding the library inside the requirement.txt files 
+
+pip install -r requirements.txt
+
+to start jupyter notebook jupyter-notebook
+
+
 

@@ -30,5 +30,20 @@ do not puch the data to git as its huge, to avoid that add datafile_name.zip int
 OR use %load_ext tensorboard in the jupyter notebook and type %tensorboard --logdir research_env/logs/fit/
 
 
+# MLFLOW: MLOPS
+unde our root directory we have src and under src we have lot of other folder
+1. Get Data : data gathering
+2. BASE model archeive : model preparation
+3. Prepare callbacks: tensor board, check points
+
+All above 3 connect and create train and there we also have utils folder which is outside of train. and generally handle all utility files.
+
+4. config folder : config.yaml, secret keys: token id, keys, password, parameter.yaml : hyperparameter like epochs, weight bias etc, setup.py file.
+
+5. ML Project files : decide how above all are connect altogether
+6. conda.yaml : conda settings and environement
+7. requirement.txt : all the required library.
+
+
 
 
